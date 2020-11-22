@@ -11,6 +11,14 @@ Sphinx = "*"
 [packages]
 src = {editable = true, path = "./"}
 awscli = "*"
+mailbox = "*"
+boto3 = "*"
+wget = "*"
+pandas = "*"
+numpy = "*"
+datetime = "*"
+regex = "*"
+ipykernel = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.6.3"
