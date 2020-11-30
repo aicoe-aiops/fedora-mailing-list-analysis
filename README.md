@@ -1,7 +1,24 @@
-project-template
-==============================
+# Discriminatory Text Detection on Fedora Mailing List
 
-template for the team to use
+## Overview
+
+_Current Open Source Software (OSS) communities have many avenues of communication available to them, including mailing lists, chat channels, and forum boards. 
+
+Mailing lists have become popular targets for mining sentiment and emotions, as they usually provide a centralized communication hub for members of a distributed OSS community. Sentiment and emotions within communities can provide insights into community health. Good community health will help with initiatives aimed at fostering positive interactions between OSS community members, strengthening social ties, and helping the community accomplish its tasks.
+
+With that, the task of conducting sentiment analysis on the Fedora user and developer mailing list found its roots. Over the summer, the project evolved into being focused on hate speech and offensive language detection. Through the next few months, there will be multiple combinations of models and training sets tested to see which gives the best accuracy. A service then will be developed that can be used to analyze any OS mailing list data.
+
+The goal of this service is to be able to provide community managers information about how their community communicates with one another. In an ideal world, the service would notify manager of threads or users that are turning towards discriminatory language that could push away other members from wanting to contribute. _
+
+## A. Problem Statement:
+
+_Through the the data from the devel and user Fedora Mailing List, create a model that best detects if a given email or thread is conducting "offensive" or "discriminatory" language. From this model, develop a service that community managers can use to be notified of this behavor/ analyze over time the changes in this sector of sentiment._ 
+
+1. Clean the data set 
+2. Create a train, testing, and validation data set
+3. Create a model that best labels the emails into the 3 categories 
+4. Look into using this analysis to determine the health of threads 
+5. Deploy into a service for community managers 
 
 Project Organization
 ------------
