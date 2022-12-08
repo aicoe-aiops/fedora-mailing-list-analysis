@@ -1,0 +1,10 @@
+-e .
+awscli
+boto3
+datetime
+ipykernel
+mailbox
+numpy
+pandas
+regex
+wget
